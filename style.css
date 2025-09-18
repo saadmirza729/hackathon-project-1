@@ -5,7 +5,7 @@
 }
 
 .hero-section {
-    background-image: url("./assets/pics/slider.webp");
+    background-image: url("./assets/pics/banner.webp");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -21,15 +21,17 @@
     height: 90px;
     background-color: black;
 }
+
 .navbar .nav-left .logo img {
     position: absolute;
     width: 162px;
-    margin: -36px 0px 0px 60px;
-    
+    margin: -45px 0px 0px 60px;
+
 }
+
 .navbar .nav-left .logo {
     display: flex;
-    
+
 }
 
 .nav-right ul {
@@ -38,49 +40,271 @@
     list-style-type: none;
 
 }
+
 .nav-right ul li {
-    padding: 30px;
+    padding: 22px;
+    font-size: 17px;
 }
 
 .nav-right {
-    margin-left: 100px;
+    margin-left: 555px;
+    margin-top: 8px;
 }
 
-.nav-a  {
+.nav-a {
     color: white;
     display: flex;
-}
-.nav-a a  {
-    padding: 10px;
+    margin-left: -40px;
+    margin-top: -18px;
+    margin-right: 25px;
 }
 
+.nav-a a {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #e13737;
+    margin: 6px;
+    border-radius: 30px;
+}
+
+.nav-a .an-right {
+    background-color: #e13737;
+    text-decoration: none;
+    color: white;
+}
 
 .item1 {
     background-color: black;
     width: 100%;
-    height: 600px;
+    height: 520px;
 }
 
 .item1 .para1 {
     color: white;
     text-align: center;
     font-size: 40px;
-    padding: 80px;
-}
-.item1 .para1 p{
-    padding: 6px;
+    padding: 35px;
+    line-height: 38px;
 }
 
 .item1 .para-i {
-    font-size: 20px;
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.5);
 }
 
 .box-items {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin: -240px 0px 0px 70px;
+    flex-wrap: wrap;
 }
+
 .box-items .item1 img {
     margin: -275px 0px 0px 60px;
     background-color: white;
+    border-radius: 25px;
+}
+
+.box-items .same-items {
+    background-color: white;
+    margin: 0px 35px 0px 0px;
+    border-radius: 25px;
+}
+
+.box-items .same-items .btn-main {
     position: absolute;
+    padding: 10px 40px 10px 40px;
+    font-size: 16px;
+    border-radius: 15px;
+    background: none;
+    color: white;
+    border: 1px solid #e13737;
+    margin: 20px 0px 0px 50px;
+}
+
+
+.second-items h2 {
+    font-size: 450px;
+    margin-left: 980px;
+    position: absolute;
+    margin-top: -110px;
+    color: rgba(55, 50, 50, 0.5);
+}
+
+.second-items p {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    line-height: 38px;
+}
+
+.second-items .para2 {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.main-items {
+    background-color: #171515;
+    width: 100%;
+    height: 1550px;
+    margin-top: -250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.places .main-city1 .city1 p {
+    font-size: 16px;
+    padding-top: 30px;
+    letter-spacing: 9px;
+    color: red;
+    margin-right: 150px;
+}
+
+.places .main-city1 .place1 p {
+    font-size: 32px;
+    color: white;
+}
+
+.places .main-city1 .address1 p {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 13px;
+}
+
+.places .main-city1 .place-direction a {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid #e13737;
+    margin: 6px;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+.places .main-city1 .place-direction {
+    text-decoration: none;
+    color: white;
+    margin: 50px 0px 20px 130px;
+    padding-right: 400px;
+}
+
+.places .place-img1 img {
+    width: 400px;
+    margin-top: 30px;
+}
+
+.places {
+    display: flex;
+    padding: 50px;
+    flex-wrap: wrap;
+    line-height: 30px;
+    margin-top: 100px;
+}
+
+.card-background {
+    background-color: black;
+    width: 100%;
+    height: 450vh;
+}
+
+.para3 p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 40px;
+    line-height: 38px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.card1-img {
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+.city-brand .city-2 {
+    font-size: 30px;
+}
+
+.city-1 {
+    font-size: 15px;
+    color: red;
+    letter-spacing: 9px;
+    line-height: 10px;
+}
+
+
+.address2 {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.card-an {
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 25px;
+    width: 150px;
+    padding: 4px 2px 4px 2px;
+}
+
+.main-footer {
+    background-color: #1c1b1b;
+    width: 100%;
+    height: 95vh;
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
+}
+
+.copy-right {
+    background-color: black;
+    width: 100%;
+    height: 8vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+.foot-logo img {
+    width: 160px;
+}
+
+.foot-logo {
+    margin-bottom: 40px;
+}
+
+.foot1 {
+    padding-left: 120px;
+    margin-right: 100px;
+    margin-bottom: 180px;
+
+}
+
+.foot2 {
+    margin-right: 100px;
+    margin-bottom: 200px;
+}
+
+.foot3 {
+    margin-right: 100px;
+}
+
+.foot4 {
+    margin-right: 140px;
+    margin-bottom: 440px;
 }
